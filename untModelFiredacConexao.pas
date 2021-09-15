@@ -36,7 +36,7 @@ begin
     Fdriver.VendorLib := 'C:\mysql-8.0.26-winx64\mysql-8.0.26-winx64\lib\libmysql.dll';
     FConexao := TFDConnection.Create(nil);
     FConexao.Params.DriverID := 'MySQL';//'FB';
-    FConexao.Params.Database := 'db_teste';//'localhost/3050:C:\MVC_Blog\Database\DADOS.FDB';
+    FConexao.Params.Database := 'db_teste';//'localhost/3050:C:\teste.FDB';
     FConexao.Params.UserName := 'root';//'SYSDBA';
     FConexao.Params.Password := '61425546';//'masterkey';
     FConexao.Connected := true;
